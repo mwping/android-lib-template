@@ -7,5 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Android-lib-template"
-include ':app'
-include ':templatelib'
+include("app", "templatelib")
